@@ -1,3 +1,4 @@
+
 name: Basic Tests
 
 on:
@@ -16,7 +17,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run basic tests
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Test valid data
         run: |
-          echo "Running lab9 basic tests"
-          # Add the three required tests here
+          output=$(printf "0871234567\nJose\n" | python3 validate-data.py)
+          echo "$output"
+          echo "$output" | grep -q "Pass"
+
+      - name: Test long name
+        run: |
+          output=$(printf "0871234567\nThisNameIsMuchTooLong\n" | python3 validate-data.py)
+          echo "$output"
+          echo "$output" | grep -q "Fail"
+
+      - name: Test long phone number
+        run: |
+          output=$(printf "087123456789\nJose\n" | python3 validate-data.py)
+          echo "$output"
+          echo "$output" | grep -q "Fail"
