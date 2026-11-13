@@ -604,3 +604,8 @@
   604  git commit -m "version2 .py file"
   605  git push
   606  history > history.txt
+  607  vi validate-data.py 
+  608  git add .
+  609  git commit -m "version3 .py file"
+  610  git push
+  611  history > history.txt
