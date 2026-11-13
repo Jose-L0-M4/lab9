@@ -1,0 +1,611 @@
+    1  git push --set-upstream origin main
+    2  cd ..
+    3  mkdir week5
+    4  cd week5/
+    5  ls
+    6  git init
+    7  git remote add origin git@github.com:Jose-L0-M4/devsopsProj.git
+    8  ls
+    9  mkdir docker
+   10  cdd docker/
+   11  cd docker/
+   12  docker run -bash t
+   13  docker run --help
+   14  docker run -i ubuntu
+   15  docker image status 
+   16  docker image -al
+   17  docker image -a
+   18  docker image a
+   19  docker image --help
+   20  docker image ls
+   21  docker stop f144
+   22  docker stop --help
+   23  docker run -i bash
+   24  docker ls
+   25  docker status 
+   26  docker image ls
+   27  docker rm 6196
+   28  docker run -i ubuntu bash
+   29  docker 
+   30  docker rmi 6196
+   31  docker container ls
+   32  docker contaainer --help
+   33  docker container --help
+   34  docker image 
+   35  docker image ls
+   36  docker stop 6196
+   37  docker rmi 6196
+   38  docker rm fb06992c155f
+   39  docker rmi 6196
+   40  docker image ls
+   41  docker ls -al
+   42  docker ls 
+   43  docker container ls -a
+   44  docker container ls 
+   45  docker container ls -a
+   46  docker start dc25 -i
+   47  docker exec -it dc25 bash
+   48  docker start -it dc25 bash
+   49  docker container ls -a
+   50  ls
+   51  cd devops/
+   52  ls
+   53  ls week5
+   54  cd  week5
+   55  lss
+   56  ls
+   57  git init
+   58  git pull
+   59  git pull origin aain
+   60  git pull origin main
+   61  ls
+   62  git status
+   63  git branch - main
+   64  git branch -m  main
+   65  git status
+   66  mkdir v1
+   67  cd v1
+   68  cd ../..
+   69  ls
+   70  mkdir CA
+   71  cd CA/
+   72  git init 
+   73  git branch -m main
+   74  ls
+   75  git remote add origin main https://github.com/pearse1104/x00220311.git
+   76  git remote add origin https://github.com/pearse1104/x00220311.git
+   77  git pull 
+   78  git remote add origin https://github.com/pearse1104/x00220311.git
+   79  git remote add origin git@github.com:pearse1104/x00220311.git
+   80  git remote remove origin
+   81  git remote add origin git@github.com:pearse1104/x00220311.git
+   82  git pull 
+   83  vi hello.py
+   84  git push 
+   85  git push --set-upstream origin main
+   86  ssh -T git@github.com
+   87  git push --set-upstream origin main
+   88  git add .
+   89  git commit -m 'First commit'
+   90  git push --set-upstream origin main
+   91  ls
+   92  cd ../week5/v1/
+   93  git clone https://github.com/Jose-L0-M4/devsopsProj
+   94  ls
+   95  mv devsopsProj/ devsopsProj1
+   96  ls
+   97  cd devsopsProj1/
+   98  ls
+   99  git switch -c ONE-V1
+  100  git branch
+  101  cd ../..
+  102  mkdir v2
+  103  cd v2
+  104  git clone https://github.com/Jose-L0-M4/devsopsProj
+  105  mv devsopsProj/ devsopsProj1
+  106  cd devsopsProj1/
+  107  git switch -c ONE-V1
+  108  ls
+  109  git switch -c ONE-V2
+  110  git branch
+  111  ls
+  112  cd scripts/
+  113  vi script.py 
+  114  git checkout ONE-V1
+  115  ls
+  116  vi script.py 
+  117  git checkout ONE-V2
+  118  ls
+  119  git status
+  120  git braanch
+  121  git branch
+  122  vi script.py 
+  123  git checkout ONE-V1
+  124  vi script.py 
+  125  cat script.py 
+  126  git checkout ONE-V2
+  127  cat script.py 
+  128  git checkout ONE-V1
+  129  git add script.py 
+  130  git commit -m 'v1 branch'
+  131  git checkout ONE-V2
+  132  vi script.py 
+  133  cat script.py 
+  134  git checkout ONE-V1
+  135  git add script.py 
+  136  git commit -m 'branch v2'
+  137  cat script.py 
+  138  git checkout ONE-V2
+  139  git checkout ONE-V1
+  140  cat script.py 
+  141  git status
+  142  git push -u origin ONE-V1
+  143  git remote add origin git@github.com:pearse1104/x00220311.git
+  144  git remote rm origin
+  145  git remote add origin git@github.com:pearse1104/x00220311.git
+  146  git push -u origin ONE-V1
+  147  git checkout ONE-V2
+  148  git push -u origin ONE-V2
+  149  git branch
+  150  git checkout main
+  151  git branch 
+  152  ls
+  153  cd ..
+  154  ls
+  155  mkdir mergetest
+  156  cd mergetest/
+  157  git fetch origin
+  158  git pull origin main
+  159  ls
+  160  git merge origin/ONE-V1
+  161  git push origin main
+  162  git pull origin main
+  163  git config pull.rebase false
+  164  git pull origin main
+  165  git pull origin main --allow-unrelated-histories
+  166  git remote
+  167  git remote -v
+  168  git remote rm
+  169  git remote rm origin
+  170  git remote add origin git@github.com:Jose-L0-M4/devsopsProj.git
+  171  git checkout ONE-V1
+  172  ls
+  173  cd ..
+  174  ls
+  175  cat scripts/script.py 
+  176  cd scripts/
+  177  git add script.py 
+  178  git commit -m 'v1 branch'
+  179  git status
+  180  git push -u origin ONE-V1
+  181  git checkout ONE-V2
+  182  cat script.py 
+  183  git add script.py 
+  184  git commit -m 'v2 branch'
+  185  git push -u origin ONE-V2
+  186  git checkout main 
+  187  ls
+  188  cd ..
+  189  ls
+  190  rm hello.py 
+  191  ls
+  192  cd mergetest/
+  193  ls
+  194  git pull
+  195  git pull origin main
+  196  git fetch origin
+  197  git merge origin/ONE-V1
+  198  git merge origin/ONE-V2
+  199  git status
+  200  ls
+  201  cd ..
+  202  ls
+  203  cd scripts/
+  204  cat script.py 
+  205  vi script.py 
+  206  git add script.py 
+  207  git commit -m "Resolve count1 merge conflict using ONE-V1"
+  208  git push origin main
+  209  git checkout TWO-V1
+  210  git switch -c  TWO-V1
+  211  git branch
+  212  git switch -c  TWO-V2
+  213  vi script2.py 
+  214  git add script2.py 
+  215  git commit -m 'TWO-V2 branch'
+  216  git switch -c  TWO-V1
+  217  git switch   TWO-V1
+  218  git status
+  219  git branch
+  220  vi script2.py 
+  221  git add script2.py 
+  222  git commit -m 'TWO-V1 branch'
+  223  git push -u origin TWO-V1
+  224  git switch   TWO-V2
+  225  git push -u origin TWO-V2
+  226  git switch  main
+  227  git puss
+  228  git pushh
+  229  git push
+  230  git push --set-upstream origin main
+  231  cd ..
+  232  git branch
+  233  cd devsopsProj1/
+  234  git branch
+  235  git merge TWO-V1
+  236  mongosh "mongodb+srv://cluster0.h6p9mws.mongodb.net/" --apiVersion 1 --username X00220311
+  237  curl icanhazip.com
+  238  mongosh "mongodb+srv://cluster0.h6p9mws.mongodb.net/" --apiVersion 1 --username X00220311
+  239  ls
+  240  cd devops/
+  241  ls
+  242  mkdir week6
+  243  ls week6
+  244  cd week6
+  245  git init
+  246  git branch main
+  247  git branch -m main
+  248  ssh -t git@github.com
+  249  ssh -T git@github.com
+  250  git add remote origin main git@github.com:Jose-L0-M4/Lab6.git
+  251  git remote add origin main git@github.com:Jose-L0-M4/Lab6.git
+  252  git remote add origin git@github.com:Jose-L0-M4/Lab6.git
+  253  git status
+  254  git remote
+  255  gh --version
+  256  gh auth status
+  257  gh auth login
+  258  gh auth status
+  259  gh repo list
+  260  gh api --method PUT repos/Jose-L0-M4/lab6/collaborators/lomantilla2006
+  261  git pull
+  262  git branch --set-upstream-to=origin/<branch> main
+  263  git branch --set-upstream-to=origin/ main
+  264  ls
+  265  git pull origin main
+  266  ls
+  267  gh api repos/OWNER/lab6/collaborators
+  268  gh api repos/Jose-L0-M4/lab6/collaborators
+  269  gh api --method DELETE repos/Jose-L0-M4/lab6/collaborators/lomantilla2006
+  270  gh issue create   --title "create helloworld echo file"   --body "echo hello Pearse from lab6"   --assignee "@me"   --label "enhancement"
+  271  git checkout -b Q12345
+  272  git status
+  273  vi q1.txt #
+  274  ls
+  275  gh repo create lab7 --public
+  276  ls
+  277  vi q2.txt 
+  278  vi q3.txt 
+  279  vi q4.txt 
+  280  ls
+  281  cd devops/
+  282  cd week
+  283  cd week6
+  284  sit statuss
+  285  sit status
+  286  git status
+  287  ls
+  288  cat q1
+  289  cat q1.txt
+  290  cat q2.txt
+  291  cat q3.txt
+  292  cat q4.txt
+  293  rm -rf q* 
+  294  ls
+  295  vi answers.py
+  296  vi answers.py 
+  297  gh pr view --web
+  298  git branch
+  299  git push -u origin Q12345
+  300  git switch main
+  301  gh pr view --web
+  302  gh pr create --base main --head Q12345   --title "Merge Q12345 into main"   --body "Merge changes from Q12345 into main."
+  303  switch Q112345
+  304  git switch Q12345
+  305  ls
+  306  git add .
+  307  mv answers.py helloworld.py
+  308  git add .
+  309  git staatus
+  310  git status
+  311  git restore --staged .q5.txt.swp." to unstage
+  312  dsa
+  313  dsa
+  314  exit
+  315  asddsad
+  316  das
+  317  d
+  318  d
+  319  adsa
+  320  :q!
+  321  git restore --staged .q5.txt.swp." 
+  322  git restore --staged .q5.txt.swp.
+  323  ls
+  324  git commit -m 'fixes #1'
+  325  git push 
+  326  git switch main
+  327  gh pr create --base main --head Q12345   --title "Merge Q12345 into main"   --body "Merge changes from Q12345 into main."
+  328  ls
+  329  vi answers2.py
+  330  git pull
+  331  git pull origin main
+  332  git add .
+  333  git commit -m 'fixes #3'
+  334  git push 
+  335  git push --set-upstream origin main
+  336  git pr view
+  337  gh pr view
+  338  gh api rep
+  339  gh api repo
+  340  gh api 
+  341  gh repo
+  342  gh repo list 
+  343  ls
+  344  cd devops/
+  345  cd week6/
+  346  ls
+  347  git log
+  348  git log --oneline --graph
+  349  git tag first commit 2269b09
+  350  git tag V0  2269b09
+  351  git push  V0  2269b09
+  352  git push  origin V0
+  353  git log --oneline
+  354  git tag V1 0e7c078
+  355  git tag
+  356  git log --oneline
+  357  git push origin V1   
+  358  ls ~/.ssh
+  359  ls ~/.ssh/id_rsa.pub 
+  360  cat ~/.ssh/id_rsa.pub 
+  361  cat git_github_commands_cheat_sheet.txt 
+  362  ls
+  363  ssh-keygen -t rsa 
+  364  cd .ssh/
+  365  ls
+  366  cd id_
+  367  ls id_rsa
+  368  cat id_rsa
+  369  cat id_rsa.pub 
+  370  ls
+  371  ls known_hosts
+  372  ls -a
+  373  ls ..
+  374  ls .
+  375  cd ..
+  376  ls
+  377  mv gi
+  378  mv git_github_commands_cheat_sheet.txt devops/
+  379  ls
+  380  cat hello_its_me
+  381  cat hello_its_me.pub 
+  382  rm hello_its*
+  383  ls
+  384  cd devops/
+  385  ls
+  386  cat git_github_commands_cheat_sheet.txt 
+  387  cd ..
+  388  ls
+  389  cd devops/
+  390  ls
+  391  cat git_github_commands_cheat_sheet.txt 
+  392  ls
+  393  ccd devops/
+  394  cd devops/
+  395  ls
+  396  mkdir CA
+  397  ls 
+  398  mkdir CA1
+  399  cd CA1
+  400  git clone git@github.com:pearse1104/CA1-SOFTWARE.git
+  401  ls
+  402  cd CA1-SOFTWARE/
+  403  ls
+  404  bash user-setup.sh 
+  405  ls
+  406  cat user
+  407  cat user.txt 
+  408  git init 
+  409  git add .
+  410  git commit -m "first commit"
+  411  git brach
+  412  git status
+  413  git remote add origin git@github.com:Jose-L0-M4/devopsCA1sw.git
+  414  git remote rm 
+  415  git remote add origin git@github.com:Jose-L0-M4/devopsCA1sw.git
+  416  git remote
+  417  git push 
+  418  git remote rm 
+  419  git remote rm pearse1104/CA1-SOFTWARE.git
+  420  git remote rm origin 
+  421  git remote add origin git@github.com:Jose-L0-M4/devopsCA1sw.git
+  422  git push 
+  423  ls
+  424  cd..
+  425  cd ..
+  426  mkdir Q2 
+  427  cd Q2
+  428  git remote rm origin
+  429  git remote rm
+  430  git remote
+  431  git clone git@github.com:pearse1104/x00220311.git
+  432  cd ..
+  433  git clone git@github.com:pearse1104/x00220311.git
+  434  ls
+  435  rm Q2
+  436  rm -rf Q2
+  437  ls
+  438  cd x00220311/
+  439  ls
+  440  cd ..
+  441  ls CA1-SOFTWARE/
+  442  cp CA1-SOFTWARE/user-setup.sh x00220311/
+  443  cd x00220311/
+  444  bash user-setup.sh 
+  445  git remote add origin main git@github.com:pearse1104/x00220311.git
+  446  ls
+  447  git remote rm 
+  448  git remote 
+  449  git remote rm origin 
+  450  git remote add  main origin  git@github.com:pearse1104/x00220311.git
+  451  gh auth 
+  452  git remote add origin  git@github.com:pearse1104/x00220311.git
+  453  git push
+  454  git push --set-upstream origin main
+  455  git add .
+  456  git commit -m "change V2"
+  457  git push --set-upstream origin main
+  458  git checkout -b myCA1branch
+  459  git branch 
+  460  vi user.txt 
+  461  git add .
+  462  git commit -m "version2"
+  463  git push --set-upstream origin myCA1branch
+  464  ls
+  465  git switch main
+  466  git merge myCA1branch 
+  467  history > history.txt 
+  468  git add .
+  469  git commit -m "V3"
+  470  git push main
+  471  git push
+  472  ls
+  473  cd adv_database/
+  474  LS
+  475  ls
+  476  mkdir week8
+  477  cd week8
+  478  ls
+  479  docker run -it ubuntu bash
+  480  docker run -d --name redis -p 6379:6379 redis:latest
+  481  docker ps -a
+  482  docker exec -it redis redis-cli
+  483  docker run --name redis-tutorial -p 6379:6379 -d redis:latest
+  484  docker exec -it redis redis-cli
+  485  docker stop redis-tutorial
+  486  docker rm redis-tutorial
+  487  docker ps -a
+  488  docker ps
+  489  docker exec -it redis redis-cli
+  490  docker stop redis-tutorial
+  491  docker stop red
+  492  docker stop  b36e
+  493  docker rm b36e
+  494  docker ps -a
+  495  docker run --name redis-tutorial -p 6379:6379 -d redis:latest
+  496  docker exec -it redis redis-cli
+  497  docker ps -a
+  498  docker exec -it redis redis-cli
+  499  docker exec -it redis_tutorial  redis-cli
+  500  gh auth
+  501  gh auth login
+  502  gh auth logout
+  503  gh auth login
+  504  gh auth status
+  505  gh repo create lab9 --public
+  506  ls
+  507  cd devops/
+  508  ls
+  509  mkdir week9
+  510  cd week9
+  511  git init 
+  512  git remote
+  513  git remote add origin https://github.com/Jose-L0-M4/lab9
+  514  git remote
+  515  gh repo view
+  516  ls
+  517  vi validate-data.py
+  518  ls
+  519  /. validate-data.py 
+  520  python3 --version
+  521  python3 validate-data.py 
+  522  gh issue create\ --title "create yalm test script"\ --body "Create yalm" --label "enhacement"\ --assignee "@me"
+  523  gh issue create \ --title "create yalm test script"\ --body "Create yalm" --label "enhacement"\ --assignee "@me"
+  524  gh issue create \ --title "create yalm test script" \ --body "Create yalm" --label "enhacement" \ --assignee "@me"
+  525  gh issue create --title "create yaml test script" --body "Create a GitHub Actions YAML workflow." --label "enhancement" --assignee "@me"
+  526  gh issue list
+  527  ls 
+  528  git add .
+  529  git commit -m "first commit"
+  530  git push
+  531  branch -m main
+  532  git branch -m main
+  533  git push --set-upstream origin main
+  534  ls
+  535  ls .github
+  536  vi basictests.yml
+  537  ls
+  538  ls -a
+  539  mkdir -p .github/workflows
+  540  man mkdir
+  541  mkdir --help
+  542  ls
+  543  ls -a
+  544  cd .github/
+  545  ls
+  546  cd workflows/
+  547  ls
+  548  vi basictests.yml
+  549  ls ../..
+  550  cd ../..
+  551  ls
+  552  git add .
+  553  git commit -m "basic YML"
+  554  git push
+  555  ls
+  556  vi validate-data.py 
+  557  git add .
+  558  gh issue vieq
+  559  gh issue view
+  560  gh issues view
+  561  gh issue view
+  562  gh issue 
+  563  gh issue list
+  564  git commit -m "fixed #2"
+  565  gh issue list
+  566  git push
+  567  gh issue list
+  568  gh issue create  --title "create yalm test script"  --body "Create project view" --label "enhacement"  --assignee "@me"
+  569  gh issue create  --title "create yalm test script"  --body "Create project view" --label "enhancement"  --assignee "@me"
+  570  gh issue list 
+  571  branch test 
+  572  git branch test  
+  573  git branch 
+  574  cd .github/workflows/
+  575  ls
+  576  cat basictests.yml 
+  577  cat ../../validate-data.py 
+  578  ls
+  579  vi basictests.yml 
+  580  ls
+  581  cd ../..
+  582  git add .
+  583  gh issue list
+  584  git commit -m "fixed #3"
+  585  git push
+  586  ls
+  587  gh issue create  --title "create test branch"  --body "Create branch" --label "enhancement"  --assignee "@me"
+  588  gh issue list
+  589  git switch test 
+  590  ls
+  591  vi validate-data.py 
+  592  ls
+  593  git add . 
+  594  git commit -m "fixed #5"
+  595  git push 
+  596  git push --set-upstream origin test
+  597  git branch
+  598  vi .github/workflows/basictests.yml 
+  599  cd ..
+  600  ls
+  601  cd -
+  602  vi validate-data.py 
+  603  git add .
+  604  git commit -m "version2 .py file"
+  605  git push
+  606  history > history.txt
+  607  vi validate-data.py 
+  608  git add .
+  609  git commit -m "version3 .py file"
+  610  git push
+  611  history > history.txt
